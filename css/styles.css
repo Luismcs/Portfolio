@@ -1,0 +1,287 @@
+.cv_link{
+    text-decoration: none;
+  }
+  
+  .fab_boot{
+    height:1em;
+    margin-bottom: 10px;
+    opacity: 0.6;
+  }
+  
+  .form_btn{
+    color: white;
+    font-weight: bold;
+  
+  }
+  
+  .form_btn:hover{
+    color: white;
+    font-weight: bold;
+  
+  }
+  
+  /* Dark Mode */
+  .dark-mode {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /*.dark-mode h2 ,h1 ,h3{
+    color: white;
+  }*/
+  
+  .dark-mode a{
+    color: #974a2d;
+  }
+  
+  .dark-mode span{ 
+    color: #974a2d;
+  }
+  
+  .dark-mode .text-primary {
+    --bs-text-opacity: 1;
+    color: #974a2d !important;
+  }
+  
+  .dark-mode .navbar a{
+    color: var(--bs-nav-link-color);
+  }
+  
+  .dark-mode .nav-link:hover, .nav-link:focus {
+    color: var(--bs-nav-link-hover-color);
+  }
+  
+  .dark-mode .form_btn{
+    color: white;
+    font-weight: bold;
+    background-color: var(--bs-btn-hover-bg);
+  
+  }
+  
+  .dark-mode .form_btn:hover{
+    color: white;
+    font-weight: bold;
+    background-color: #0069d3;
+  
+  }
+    
+  
+  .darkm_switch .form-check-input:focus {
+    border-color: #badbcc;
+    outline: 0;
+    box-shadow: rgba(77, 142, 255, 0.25) 0px 0px 0px 0.25rem;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgba%280, 0, 0, 0.25%29'/%3e%3c/svg%3e");
+  }
+  
+  .darkm_switch .form-check-input:checked {
+    background-color: #0069d3;
+    border-color: #badbcc;
+  }
+  
+  .dark-mode .social-icons .social-icon:hover {
+    background-color: #974a2d;
+  }
+  
+  .form-check-input:hover{
+    cursor: pointer;
+  }
+  
+  .form-check-label{
+    color: white;
+  }
+  
+  .dark-mode h1, 
+  .dark-mode h2, 
+  .dark-mode h3, 
+  .dark-mode h4, 
+  .dark-mode h5, 
+  .dark-mode h6
+  {
+    color: white;
+  }
+  
+.dark-mode .form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: lightgray;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.375rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+  
+.dark-mode .form-control:focus {
+    color: white;
+    background-color: #333;
+    border-color:  rgba(168, 111, 50, 0.55);
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(168, 111, 50, 0.45);
+}
+  
+.dark-mode .form-control {
+    margin-top: 0.25rem;
+    font-size: 0.875em;
+    background-color: #333;
+    color: white;
+}
+  
+.dark-mode .nome{
+    color: white;
+}
+
+.dark-mode .modal-content{
+    background-color: #222;
+    color: white;
+}
+
+.dark-mode .proj_report{
+    color: white;
+    font-weight: bold;
+}
+
+.dark-mode .proj_label_black{ /*Label do projeto a preto*/
+  color: black;
+}
+
+.dark-mode .form-text{
+  color: white;
+}
+
+.dark-mode .btn-check:checked + .btn, :not(.btn-check) + .btn:active, .btn:first-child:active, .btn.active, .btn.show {
+  color: var(--bs-btn-active-color);
+  background-color: #c77556;
+  border-color: var(--bs-btn-active-border-color);
+}
+  
+/*Hover nos Icons*/
+
+.fa-html5:hover{
+    color: rgb(242, 117, 28);
+}
+
+.fa-css3-alt:hover{
+    color: #4e8fff;
+}
+
+
+.fa-bootstrap:hover{
+    color: #6926ab;
+}
+
+.devicon-cplusplus-plain:hover{
+    color: #6796d0;
+}
+
+.fa-windows:hover{
+    color: #3981fe;
+}
+
+.fa-linux:hover{
+    color: #bf7f18;
+}
+
+/*Projetos*/
+
+.card{
+    border-radius: 10px;
+    background-color: transparent;
+} 
+
+.card_btn{
+  margin-top: 100%;
+}
+
+.proj_label_black{ /*Label do projeto a preto*/
+  color: black;
+}
+
+.proj_report{
+  margin-right: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.proj_report:hover{
+  color: white;
+}
+
+.proj_card{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    height: 100%;
+
+}
+
+.proj_btn_div{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.proj_title{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+/*Modal*/
+
+/*Project2*/
+
+.proj_img{
+  border-radius: 10px;
+  width: 300px;
+  margin-bottom: 8px;
+}
+  
+.proj_btn{
+    font-family: 'Saira Extra Condensed', sans-serif;
+    width: 150px;
+    font-size: 18px;
+    color: white;
+}
+
+.proj_btn:hover{
+    font-family: 'Saira Extra Condensed', sans-serif;
+    color: white;
+}
+
+.modal{
+--bs-modal-width: 1000px;
+}
+
+.modal_btn{
+    font-weight: bold;
+    color: white;
+ }
+
+ .modal_btn:hover{
+    color: white;
+ }
+
+/*Project3*/
+
+.modal3_img{
+  min-height: 700px;
+  height: 700px;
+  object-fit: contain;
+  padding-bottom: 60px;
+}
+
+
+
+
+
+  
+  
