@@ -19,6 +19,15 @@
     font-weight: bold;
   
   }
+
+  /* Media Querys */
+
+  @media (min-width: 991.98px) {
+    .darkswitch_marg{
+      margin-top: 20px;
+    }
+  }
+
   
   /* Dark Mode */
   .dark-mode {
@@ -281,6 +290,93 @@
   height: 700px;
   object-fit: contain;
   padding-bottom: 60px;
+}
+
+
+/*KeyFrames and Animations*/
+
+/*Utility Classes*/
+
+
+/*Animations*/
+
+@keyframes slideInFromLeft {
+  from {
+    transform: translateX(-150%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromLeft-dark_switch {
+  from {
+    transform: translateX(-350%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromTop {
+  from {
+    transform: translateY(-150%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+
+
+.animate_nav{
+  animation: slideInFromLeft 0.5s ease-out 0s 1 normal none;
+}
+
+.animate_nav_txt{
+  animation: slideInFromLeft 0.5s ease-out 0s 1 normal none;
+}
+
+.animate_darkswitch{
+  animation: slideInFromLeft-dark_switch 0.5s ease-out 0s 1 normal none;
+}
+
+.animate_main{
+  animation: fadeIn 0.5s ease-in-out 0s 1 normal none;
+}
+
+/*Animação da nav bar modo menu hamb*/
+
+@media (max-width: 991.98px) {
+  .animate_nav {
+    animation: slideInFromTop 0.4s ease-out 0s 1 normal none;
+  }
+  .animate_darkswitch{
+    animation: slideInFromTop 0.4s ease-out 0s 1 normal none;
+  }
+
+  .animate_nav_txt{
+    animation: slideInFromTop 0.4s ease-out 0s 1 normal none;
+  }
+
+  @keyframes slideInFromLeft-dark_switch {
+    from {
+      transform: translateX(-150%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
 }
 
 
