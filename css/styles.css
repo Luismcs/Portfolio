@@ -191,7 +191,11 @@
 }
 
 .devicon-cplusplus-plain:hover{
-  color: #6796d0;
+  color: #295fa1;
+}
+
+.devicon-csharp-plain:hover{
+  color: #a820ad;
 }
 
 .fa-windows:hover{
