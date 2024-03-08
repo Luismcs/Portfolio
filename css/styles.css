@@ -198,6 +198,14 @@
   color: #a820ad;
 }
 
+.devicon-php-plain:hover{
+  color: #777BB3;
+}
+
+.fa-laravel:hover{
+  color: #F06340;
+}
+
 .fa-windows:hover{
   color: #3981fe;
 }
