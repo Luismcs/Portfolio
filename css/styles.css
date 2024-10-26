@@ -177,17 +177,12 @@
   
 /*Hover nos Icons*/
 
-.fa-html5:hover{
-  color: rgb(242, 117, 28);
+.devicon-java-plain:hover{
+  color: #cd3c0b;
 }
 
-.fa-css3-alt:hover{
-  color: #4e8fff;
-}
-
-
-.fa-bootstrap:hover{
-  color: #6926ab;
+.devicon-spring-original-wordmark:hover{
+  color: #208b05;
 }
 
 .devicon-cplusplus-plain:hover{
@@ -208,6 +203,18 @@
 
 .fa-laravel:hover{
   color: #F06340;
+}
+
+.fa-html5:hover{
+  color: rgb(242, 117, 28);
+}
+
+.fa-css3-alt:hover{
+  color: #4e8fff;
+}
+
+.devicon-javascript-plain:hover{
+  color: #f3ca25;
 }
 
 .fa-windows:hover{
